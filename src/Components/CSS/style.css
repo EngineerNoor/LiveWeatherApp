@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: #a3a3e8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.inputData{
+}
+.inputField{
+    padding: 15px 25px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 15px;
+}
+p{
+    /* margin-bottom: 300px; */
+    font-size: 30px;
+}
+.location{
+    font-size: 40px;
+    margin-bottom: 14px;
+}
+.fa-street-view{
+    font-size: 54px;
+    margin-right: 13px;
+    color: white;
+    animation: rotateview 2s alternate infinite;
+}
+.tempmin_max{
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 14px;
+}
+@keyframes rotateview{
+    from{
+        transform: translateX(-10px)
+    }
+    to{
+        transform: translateX(10px);
+    }
+}
+.info{
+    margin-top: 100px;
+    position: fixed;
+}
+.temp{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.tempmin_max{
+    font-weight: 400;
+    font-size: 18px;
+}
+.-one{
+    width: 800px;
+    height: 750px;
+    background-color: #e0e0f0;
+    position: absolute;
+    top: 72%;
+    left: -48%;
+    border-radius: 50%;
+    animation: onerotate 5s linear infinite;
+    opacity: 0.5;
+}
+.-two{
+    width: 850px;
+    height: 790px;
+    background-color: #e0e0f0;
+    position: absolute;
+    top: 72%;
+    left: -48%;
+    border-radius: 50%;
+    animation: tworotate 3s linear infinite;
+    z-index: 22;
+    opacity: 0.5;
+}
+.-three{
+    width: 840px;
+    height: 690px;
+    background-color: #e0e0f0;
+    position: absolute;
+    top: 80%;
+    left: -48%;
+    border-radius: 50%;
+    animation: threerotate 5s linear infinite;
+    opacity: 0.5;
+}
+@keyframes onerotate{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+@keyframes tworotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
+  @keyframes threerotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
