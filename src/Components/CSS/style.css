@@ -132,14 +132,15 @@ p{
         width: 299px;
         height: 361px;
     }
+    .-three {
+        width: 703px;
+        left: -55%;
+    }
     .-one {
         width: 662px;
     }
     .-two {
         width: 680px;
     }
-    .-three {
-        width: 703px;
-        left: -55%;
-    }
+  
   }
