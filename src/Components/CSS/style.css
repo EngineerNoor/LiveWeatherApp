@@ -127,3 +127,19 @@ p{
         transform: rotate(360deg);
     }
   }
+  @media (max-width:386px) {
+    .box {
+        width: 299px;
+        height: 361px;
+    }
+    .-one {
+        width: 662px;
+    }
+    .-two {
+        width: 680px;
+    }
+    .-three {
+        width: 703px;
+        left: -55%;
+    }
+  }
