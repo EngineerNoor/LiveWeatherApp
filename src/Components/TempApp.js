@@ -28,13 +28,11 @@ const TempApp = () => {
           <p>No Data Found</p>
         ) :
           (
-            // <div>
               <div className='info'>
                 <h2 className='location'><i className="fa-solid fa-street-view"></i> {search}</h2>
                 <h1 className='temp'>{city.temp}&deg;Cel</h1>
                 <h3 className='tempmin_max'>Min : {city.temp_min}&deg;Cel | Max : {city.temp_max}&deg;Cel</h3>
               </div>
-            // </div>
           )
         }
        <div className="waves">

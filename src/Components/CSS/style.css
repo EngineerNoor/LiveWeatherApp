@@ -21,8 +21,6 @@ body{
     position: relative;
     overflow: hidden;
 }
-.inputData{
-}
 .inputField{
     padding: 15px 25px;
     border-radius: 15px;
